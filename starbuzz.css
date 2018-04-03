@@ -18,14 +18,6 @@ div#gridContainer {
 }
 
 
-/*
-	height messes up the headers in the blog in the articles
-	it's only appropriate for the top header.
-	add a class (new with blog)
-	Affects the 3 #header rules for the main header below
-	In HTML: add class="top" to main header in index.html and blog.html
-*/
-
 header.top {
   grid-area: header;
   background-color: #675c47;
